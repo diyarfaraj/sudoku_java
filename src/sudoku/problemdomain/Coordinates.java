@@ -1,5 +1,7 @@
 package sudoku.problemdomain;
 
+import java.util.Objects;
+
 public class Coordinates {
     private final int x;
     private final int y;
@@ -25,7 +27,10 @@ public class Coordinates {
 
         return x == that.x &&
                 y == that.y;
-        //minut 6.27
+    }
 
+    @Override
+    public int hashCode(){
+        return Objects.hash(x,y);
     }
 }
