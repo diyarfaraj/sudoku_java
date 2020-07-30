@@ -30,7 +30,7 @@ public class UserInterfaceImpl implements IUserInterfaceContract.View, EventHand
 
     //keep track of 81 fields
     private HashMap<Coordinates, SudokuTextField> textFieldCoordinates;
-    private IUserInterfaceContract.Eventlistener listener;
+    private IUserInterfaceContract.EventListener listener;
 
     private static final double WINDOW_Y = 732;
     private static final double WINDOW_X = 668;
@@ -103,7 +103,7 @@ public class UserInterfaceImpl implements IUserInterfaceContract.View, EventHand
         line.setHeight(height);
         line.setWidth(width);
 
-        line.setFill(Color.BLACK)
+        line.setFill(Color.BLACK);
 
         return line;
     }
@@ -186,7 +186,7 @@ public class UserInterfaceImpl implements IUserInterfaceContract.View, EventHand
 
 
     @Override
-    public void setListener(IUserInterfaceContract.Eventlistener listener) {
+    public void setListener(IUserInterfaceContract.EventListener listener) {
         this.listener = listener;
     }
 

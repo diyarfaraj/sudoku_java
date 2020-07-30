@@ -9,7 +9,7 @@ public class SudokuGame implements Serializable {
     private final GameState gameState;
     private final int[][] gridState;
 
-    public static final int GRID_BOUNDRY = 9;
+    public static final int GRID_BOUNDARY = 9;
 
     public SudokuGame(GameState gameState, int[][] gridState) {
         this.gameState = gameState;

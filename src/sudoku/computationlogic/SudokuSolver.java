@@ -1,6 +1,7 @@
 package sudoku.computationlogic;
 
 import sudoku.problemdomain.Coordinates;
+import static sudoku.problemdomain.SudokuGame.GRID_BOUNDARY;
 
 /**
  * Note: Algorithm based on "Simple Solving Algorithm" from the link below. I will look at more complex and efficient

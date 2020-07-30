@@ -7,6 +7,7 @@ import sudoku.problemdomain.SudokuGame;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import static sudoku.problemdomain.SudokuGame.GRID_BOUNDARY;
 
 public class GameLogic {
 
