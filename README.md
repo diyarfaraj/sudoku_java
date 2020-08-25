@@ -1,4 +1,4 @@
 # Sudoku
-Written in java. 
+Sudoku solver written in java. 
 
 ![alt text](sudoku/sudoku.png)
